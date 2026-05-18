@@ -12,7 +12,6 @@ The system supports emotion recognition from:
 
 MAVEN integrates speech and visual inference pipelines through a browser-accessible interface with backend APIs and dashboard analytics.
 
----
 
 ## Features
 
@@ -26,7 +25,6 @@ MAVEN integrates speech and visual inference pipelines through a browser-accessi
 * REST API-based backend architecture
 * Modular deployment and extensible pipeline design
 
----
 
 ## System Architecture
 
@@ -52,7 +50,6 @@ MAVEN follows a layered architecture consisting of:
    * MySQL-based logging and analytics storage
    * Tracks predictions, timestamps, and user assessment data
 
----
 
 # Emotion Categories
 
@@ -63,7 +60,6 @@ All datasets are harmonized into four unified emotion classes:
 * Sad
 * Neutral
 
----
 
 # Speech Emotion Recognition Pipeline
 
@@ -101,7 +97,6 @@ The speech pipeline processes live or uploaded audio data using transformer-base
 
 The training strategy uses speaker-independent splits to reduce identity leakage and improve generalization.
 
----
 
 # Visual Emotion Recognition Pipeline
 
@@ -133,9 +128,8 @@ The visual pipeline supports emotion recognition from images, videos, and live w
 
 ## Performance
 
-* Cross-corpus test accuracy: ~88.72% under controlled evaluation settings
+* Cross-corpus test accuracy: ~80% under controlled evaluation settings
 
----
 
 # Self-Assessment Module
 
@@ -155,7 +149,6 @@ The platform includes a structured testing module for emotion recognition practi
 * Emotion-wise statistics
 * Longitudinal performance trends
 
----
 
 # Tech Stack
 
@@ -184,7 +177,6 @@ The platform includes a structured testing module for emotion recognition practi
 
 * MySQL
 
----
 
 # Deployment Workflow
 1. User uploads or records media
@@ -195,7 +187,6 @@ The platform includes a structured testing module for emotion recognition practi
 6. Results are logged into the database
 7. Dashboard updates in real time
 
----
 
 # Project Goals
 
@@ -206,7 +197,6 @@ MAVEN focuses on:
 * Structured assistive learning workflows
 * Scalable and modular architecture design
 
----
 
 # Current Limitations
 
@@ -215,5 +205,4 @@ MAVEN focuses on:
 * Limited to four emotion categories
 * Real-world noisy environments may affect inference stability
 
----
 
